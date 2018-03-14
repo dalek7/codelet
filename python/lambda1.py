@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-
+# based on https://wikidocs.net/64
 z1 = (lambda x,y: x + y)(10, 20)
 print(z1)
 
