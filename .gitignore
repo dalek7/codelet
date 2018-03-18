@@ -1,3 +1,4 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,99 +7,64 @@ __pycache__/
 # pycharm
 .idea/
 
-# C extensions
-*.so
+out/
 
-# Distribution / packaging
-.Python
-env/
+
 build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+Build/
+bin/
+obj/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# OS-dependent
+Thumbs.db
+.DS_Store
+._.DS_Store
+._*
+__MACOSX
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Codeblocks
+*.depend
+*.layout
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# MFC-related
+*.sdf
+*.ncb
+ipch/
+Debug/
+Release/
 
-# Translations
-*.mo
-*.pot
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Django stuff:
-*.log
-local_settings.py
+# Precompiled Headers
+*.gch
+*.pch
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Scrapy stuff:
-.scrapy
+# Fortran module files
+*.mod
 
-# Sphinx documentation
-docs/_build/
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# PyBuilder
-target/
+# Executables
+*.exe
+*.out
+*.app
 
-# Jupyter Notebook
+# Python-related
+*.pyc
+
+# pycharm
+.idea/
 .ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# dotenv
-.env
-
-# virtualenv
-.venv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
