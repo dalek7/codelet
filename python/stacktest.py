@@ -21,10 +21,24 @@ print(d)
 [1 2 3 4 5 6 7 8]
 '''
 
-a = np.array([1,2,3,4])[np.newaxis]
-b = np.array([5,6,7,8])[np.newaxis]
 
-print(a.T)
+a0 = np.array([1,2,3,4])
+a = a0[np.newaxis]
+
+b = np.array([5,6,7,8])[np.newaxis]
+at = a.T
+
+print('-----------')
+print(a0)
+print(a0.shape)
+
+print(a)
+print(a.shape)
+
+print(at)
+print(at.shape)
+print('-----------')
+
 '''
 [[1]
  [2]
